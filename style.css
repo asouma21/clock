@@ -1,0 +1,48 @@
+#body{
+    background-image: url(https://cdn2.vectorstock.com/i/1000x1000/36/26/brown-background-with-clock-vector-12433626.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+#outside_box{
+max-width: 400px;
+max-height: 300px;
+height: 100%;
+width:100%;
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+background: rgba(148, 65, 16, 0.514);
+}
+#inside_box{
+    position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+width: 340px;
+height: 240px;
+text-align: center;
+background-color: aqua;
+}
+#time{
+    width: 100%;
+    height: 200px;
+    color: aliceblue;
+    font-size: 50px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: rgb(75, 16, 16);
+    line-height: 200px;
+}
+#date{
+    height: 40px;
+    background: aliceblue;
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#setTime,#setDate{
+    margin: 0%;
+}
+input[type="color" i] {
+    border:0px solid rgb(41, 5, 5);
+    background-color: rgb(41, 5, 5);
+}
